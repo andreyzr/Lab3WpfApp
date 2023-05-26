@@ -1,0 +1,28 @@
+﻿<Window x:Class="_07_ToolBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_07_ToolBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar Margin="5" Padding="5" VerticalAlignment="Top">
+            <Button Width="50" Height="50">
+                <Image Source="Data\1.png">
+                    <Image.OpacityMask>
+                        <SolidColorBrush Color="#FF9C4D4D" Opacity="1"/>
+                    </Image.OpacityMask>
+                </Image>
+            </Button>
+            <Separator/>
+            <Button Width="50" Height="50">
+                <Image Source="Data\2.png"/>
+            </Button>
+            <Separator/>
+            <Button Width="50" Height="50">
+                <Image Source="Data\3.png" Stretch="Uniform"/>
+            </Button>
+        </ToolBar>
+    </Grid>
+</Window>

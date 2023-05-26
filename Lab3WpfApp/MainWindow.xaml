@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab3WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab3WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="188.981" Width="208.732">
+    <StackPanel Margin="5">
+        <!--Label - тектсовая метка.Позволяет передавать фокус ввода связанному элементу управления при помщи горячих клавиш
+        Target - элемент, к которому будет происходить привязка.
+        Content - текст и горячая клавиша (В комбинации с Alt) формат: "_x - _X"-->
+        
+        <Label Target="{Binding ElementName=UserName}" Content="Введите _имя"/>
+        <TextBox x:Name="UserName"/>
+
+        <Label Target="{Binding ElementName=UserAdress}" Content="Введите _адресс"/>
+        <TextBox x:Name="UserAdress"/>
+
+    </StackPanel>
+</Window>
