@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ComboBox", "06_ComboBox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ToolBar", "07_ToolBar\07_ToolBar.csproj", "{49794BDB-E47B-4EA2-A4D8-33C0798641B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{A829C6EB-B1CC-4CF3-9DAD-0790B0827D1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW", "Example\HW.csproj", "{A829C6EB-B1CC-4CF3-9DAD-0790B0827D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
