@@ -83,6 +83,18 @@ namespace Example
                 textbox.TextDecorations = null;
             }
         }
+        //private void Button_Click_2(object sender, RoutedEventArgs e)
+        //{
+        //    if (textbox.TextDecorations.Count ==0)
+        //    {
+        //        textbox.TextDecorations.Add(TextDecorations.Underline) ;
+        //    }
+        //    else
+        //    {
+        //        textbox.TextDecorations.Remove(TextDecorations.Underline[0]);
+        //    }
+        //}
+
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
